@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản lý hóa đơn điện"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khách hàng" />
+
+    <EditText
+        android:id="@+id/editTextYYYYMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tháng sử dụng (YYYYMM)" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ" />
+
+    <EditText
+        android:id="@+id/editTextUsedNumElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện đã sử dụng" />
+
+    <Button
+        android:id="@+id/buttonAddCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm khách hàng"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonViewCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách khách hàng"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonOpenSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mở cài đặt"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/buttonOpenUpdatePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật giá điện"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

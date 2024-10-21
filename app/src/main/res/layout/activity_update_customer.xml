@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewUpdateCustomerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật thông tin khách hàng"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khách hàng" />
+
+    <EditText
+        android:id="@+id/editTextCustomerYYYYMM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tháng sử dụng" />
+
+    <EditText
+        android:id="@+id/editTextCustomerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ" />
+
+    <EditText
+        android:id="@+id/editTextCustomerUsedElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện đã sử dụng"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSaveCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+</LinearLayout>
